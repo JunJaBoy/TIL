@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_mov"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:text="이동"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:textSize="30dp"
+        android:textColor="@android:color/holo_red_light"/>
+    <EditText
+        android:id="@+id/et_test"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
