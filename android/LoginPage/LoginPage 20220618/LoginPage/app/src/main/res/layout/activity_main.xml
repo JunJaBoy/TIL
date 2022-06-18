@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="220dp"
+    android:background="@android:color/white"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_marginBottom="-20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/typeid"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/login_id" />
+
+        <EditText
+            android:id="@+id/typepw"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/login_pw"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/bt_login"
+            android:textAllCaps="false"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="Log In"
+            android:textStyle="bold"
+            android:backgroundTint="#888888"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/bt_signup"
+            android:textAllCaps="false"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="Sign Up"
+            android:backgroundTint="@color/lgray"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
