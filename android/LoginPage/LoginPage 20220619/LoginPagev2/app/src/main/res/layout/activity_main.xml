@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="450dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="left"
+            android:gravity="center_vertical"
+            android:text="계속하려면 회원가입을 해주세요"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/main_signup_bt"
+            android:backgroundTint="@color/signupbt"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="이메일로 회원가입"
+            android:textSize="20dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_margin="20dp"
+            android:background="#80888888" />
+
+        <Button
+            android:id="@+id/main_signup_bt_google"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/signupbt_google"
+            android:text="구글 계정으로 회원가입"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/main_signup_bt_naver"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/signupbt_naver"
+            android:text="네이버 계정으로 회원가입"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/main_signup_bt_kakao"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/signupbt_kakao"
+            android:text="카카오 계정으로 회원가입"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_margin="20dp"
+            android:background="#80888888" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="이미 계정이 있다면?"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/main_tv_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="로그인하기"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
