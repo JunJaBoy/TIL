@@ -63,5 +63,3 @@
     여기--->>		  </LinearLayout>
     </LinearLayout>
     ```
-
-    
